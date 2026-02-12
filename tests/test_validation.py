@@ -3,7 +3,7 @@
 import pytest
 
 from mcp_starter.models import ToolDefinition, ToolParam, ToolParamType
-from mcp_starter.validation import ToolValidator, ValidationError
+from mcp_starter.validation import ToolValidator
 
 
 @pytest.fixture
