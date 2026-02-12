@@ -2,10 +2,23 @@
 name = "mcp-server-starter"
 version = "0.1.0"
 description = "Template for creating MCP servers. Includes tool registration, resource handling, and validation."
+license = {text = "MIT"}
+authors = [{name = "Marlon Barreto", email = "mbarretot@hotmail.com"}]
+keywords = ["MCP", "model-context-protocol", "LLM", "AI-tools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
 requires-python = ">=3.11"
 dependencies = [
     "pydantic>=2.10.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/marlonbarreto-git/mcp-server-starter"
+Repository = "https://github.com/marlonbarreto-git/mcp-server-starter"
+Issues = "https://github.com/marlonbarreto-git/mcp-server-starter/issues"
 
 [project.optional-dependencies]
 dev = [
